@@ -347,11 +347,15 @@ a{
 
 .card-list{
   display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.card-list__index{
   flex-wrap: nowrap;
   overflow-x: hidden;
   align-items: center;
   justify-content: center;
-  gap: 24px;
 }
 
 .search-box{
